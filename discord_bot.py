@@ -3,9 +3,6 @@ import discord
 from discord.ext import tasks, commands
 import os
 
-from dotenv import load_dotenv
-load_dotenv()
-
 API_KEY = os.getenv("API_KEY")
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
